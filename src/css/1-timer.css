@@ -7,19 +7,3 @@
   letter-spacing: 0.04em;
   margin-bottom: 16px;
 }
-
-.gallery {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  list-style: none;
-  gap: 24px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.gallery-item {
-  width: calc((100% - 48px) / 3);
-  cursor: pointer;
-}
