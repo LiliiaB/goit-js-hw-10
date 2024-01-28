@@ -53,7 +53,7 @@ body {
   margin-right: 8px;
   transition: border 0.3s ease;
 }
-button {
+/* button {
   border-radius: 8px;
   width: 75px;
   height: 40px;
@@ -67,7 +67,7 @@ button {
   letter-spacing: 0.04em;
   background: #4e75ff;
   transition: background 0.3s ease;
-}
+} */
 
 disable {
   color: #989898;
