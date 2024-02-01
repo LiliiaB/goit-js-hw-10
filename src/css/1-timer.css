@@ -10,6 +10,7 @@ body {
   letter-spacing: 0.04em;
   margin-bottom: 16px;
 }
+
 .timer {
   display: flex;
   flex-direction: row;
@@ -53,7 +54,7 @@ body {
   margin-right: 8px;
   transition: border 0.3s ease;
 }
-/* button {
+button {
   border-radius: 8px;
   width: 75px;
   height: 40px;
@@ -67,13 +68,8 @@ body {
   letter-spacing: 0.04em;
   background: #4e75ff;
   transition: background 0.3s ease;
-} */
-
-disable {
-  color: #989898;
-  background: #cfcfcf;
-  pointer-events: none;
 }
+
 button:hover {
   background: #6c8cff;
 }
@@ -83,7 +79,7 @@ button:hover {
 #datetime-picker:active {
   border: 1px solid #4e75ff;
 }
-disabledinput {
+#datetime-picker:disabled {
   background: #fafafa;
   color: #808080;
 }
