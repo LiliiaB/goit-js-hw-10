@@ -73,6 +73,10 @@ button {
 button:hover {
   background: #6c8cff;
 }
+button:disabled {
+  color: #989898;
+  background-color: #cfcfcf;
+}
 #datetime-picker:hover {
   border: 1px solid #000;
 }
